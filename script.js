@@ -13,3 +13,21 @@ Modal.style.display = "none";
 //TAMANHO DE FONTES
 let tamanhoFonteAtual = 16;
 const valorAdicionado = 2;
+const valorsubtraido = 2;
+
+let btnAumentaFonte =
+document.getElementById("btnAumentaTexto");
+let btnDiminuiFonte =
+document.getElementByld("btnDiminuiTexto")
+
+function aumentaFonte() {
+    tamanhoFonteAtual = tamanhoFonteAtual +
+    valorAdicionado;
+    document.documentElement.style.fontSize =
+    `${tamanhoFonteAtual}px`;
+
+    function diminuiFonte(){
+        tamanhoFontAtual = tamanhoFonteAtual -
+        valorsubtraido;
+        document.documentElement.style.fontsize =
+        `${tamanhoFonteAtual}px`;
